@@ -95,15 +95,45 @@ hr {
 p {
     color: #330106;
 }
+.about-me{
+    display: flex;
+    flex-direction: column;
+}
+/*.about-me-text {*/
+/*    align-self: flex-start;*/
+/*}*/
+/*.about-me img {*/
+/*    max-width: 300px;*/
+/*    align-self: flex-end;*/
+/*}*/
 .current-projects p {
     margin-top: 80px;
     margin-bottom: 80px;
 }
 
-.previous-projects p {
-    margin-top: 80px;
+.previous-projects {
+    margin-top: 20px;
     margin-bottom: 80px;
 }
+.previous-projects a:link {
+    color: #330106;
+}
+.previous-projects a:visited {
+    color: #330106;
+}
+.previous-projects a:hover {
+    color: #BF7085;
+}
+.previous-projects a:active {
+    color: #330106;
+}
+.csprg {
+    
+}
+strong {
+    font-weight: bolder;
+}
+
 .contact-info p {
     margin-bottom: 250px;
 }
