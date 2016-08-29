@@ -13,28 +13,31 @@ body {
 
 /* NAV */
 .side-nav{
-    height: 100%;
     margin-top: 40px;
 }
 .side-nav ul {
     list-style-type: none;
     padding-left: 15px;
-    /*background-color: #FBDAC7;*/
+    padding-right: 15px;
 }
+
 .side-nav li {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-weight: bold;
     text-decoration: none;
     font-size: 1rem;
 }
+
 .side-nav a:link {
     color: #330106;
     text-decoration: none;
 }
+
 .side-nav a:visited {
     color: #330106;
     text-decoration: none;
 }
+
 .side-nav a:hover {
     color: #BF7085;
     text-decoration: none;
@@ -129,18 +132,7 @@ hr {
     margin-top: 20px;
     margin-bottom: 80px;
 }
-.previous-projects a:link {
-    color: #330106;
-}
-.previous-projects a:visited {
-    color: #330106;
-}
-.previous-projects a:hover {
-    color: #BF7085;
-}
-.previous-projects a:active {
-    color: #330106;
-}
+
 
 strong {
     font-weight: bolder;
@@ -150,7 +142,20 @@ strong {
     margin-bottom: 250px;
 }
 
+/* ABOUT ME */
+.cv:link, .cv:visited {
+    color: #330106;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
 
+.cv:active, .cv:hover {
+    color: #330106;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
 /* ONSET */
 
 .onset{
