@@ -4,6 +4,7 @@ html {
 body {
     font-family: 'Muli', sans-serif;
     position: relative;
+    max-width: 90%;
 }
 .wrapper {
     display: flex;
@@ -89,26 +90,39 @@ body {
     font-size: 2rem;
     color: #067575;
 }
+.subsection-title {
+    font-size: 1.5rem;
+    color: #067575;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.project-details{
+    color: #330106;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px
+}
 hr {
     color: #067575;
 }
-p {
+.content-para {
     color: #330106;
+    margin-bottom: 20px;
 }
 .about-me{
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
-/*.about-me-text {*/
-/*    align-self: flex-start;*/
-/*}*/
-/*.about-me img {*/
-/*    max-width: 300px;*/
-/*    align-self: flex-end;*/
-/*}*/
-.current-projects p {
-    margin-top: 80px;
-    margin-bottom: 80px;
+.about-me-text{
+    flex: 3;
+}
+
+.jess-photo{
+    height: 200px;
+    margin: 10px 0px 20px 15px;
+    align-self: flex-end;
+    border-radius: 40px;
 }
 
 .previous-projects {
@@ -127,15 +141,36 @@ p {
 .previous-projects a:active {
     color: #330106;
 }
-.csprg {
-    
-}
+
 strong {
     font-weight: bolder;
 }
 
 .contact-info p {
     margin-bottom: 250px;
+}
+
+
+/* ONSET */
+
+.onset{
+    display: flex;
+    flex-wrap: wrap;
+}
+.onsetimg{
+    height: 400px;
+    margin: 10px 15px 20px 0px;
+}
+
+/* CSRPG */
+
+.csprg{
+    display: flex;
+    flex-wrap: wrap;
+}
+.csprgimg{
+    height: 200px;
+    margin: 10px 15px 20px 0px;
 }
 
 /* FOOTER */
